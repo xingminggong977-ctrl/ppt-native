@@ -1,0 +1,10 @@
+# Optional: PDF -> PNG rasterisation for the preview step.
+#
+# scripts/render.py prefers `pdftoppm` from poppler-utils when it is on PATH.
+# Only install this file if you do not have poppler and still want previews.
+#
+# PyMuPDF is licensed AGPL-3.0 (or commercial). It is NOT part of the default
+# install on purpose: this project is MIT, and pulling an AGPL library into a
+# default dependency set would misrepresent what a downstream user is agreeing
+# to. Install it explicitly, or use poppler instead.
+PyMuPDF>=1.24
